@@ -1,0 +1,59 @@
+.mobile_menu-container{
+    padding: 24px;
+    position: fixed; 
+    width: 100%;
+    height: 100vh;
+    left: 0px;
+    background: white;
+    z-index: 2;
+    font-size: 1.4rem;
+    .close_img{
+        position: fixed;
+        width: 15px;
+        height: 15px;
+        right: 20px;
+        top: 15px;
+        cursor: pointer;
+    }
+    .mobile_menu-categorys{
+        padding: 0;
+        margin: 24px 0 0;
+        list-style: none;
+        li{
+            margin-bottom: 24px;
+            a{
+                text-decoration: none;
+                color: var(--black);
+                font-weight: bold;
+            }
+        }
+    }
+    .mobile_menu-user{
+        padding: 0;
+        margin: 24px 0 0;
+        list-style: none;
+        li{
+            margin-bottom: 24px;
+            a{
+                text-decoration: none;
+                color: var(--black);
+                font-weight: bold;
+            }
+        }
+    }
+    .mobile_menu-config{
+        padding: 0;
+        margin: 24px 0 0;
+        list-style: none;
+        li{
+            margin-bottom: 24px;
+            .email,
+            .sign-out{
+                text-decoration: none;
+                color: var(--black);
+                font-weight: bold;
+            }
+        }
+
+    }
+} 

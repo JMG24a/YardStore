@@ -1,0 +1,34 @@
+$hospita-green: #8ab891;
+
+.desktop_menu-container{
+    position: absolute;
+    width: 150px;
+    height: auto;
+    right: 0px;
+    top: 60px;
+    background-color: white;
+    border: 1px solid var(--very-light-pink);
+    border-radius: 6px 0px 0px 6px;
+    padding: 20px 20px 0 20px;
+    font-size: 1.4rem;
+    z-index: 1;
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li{
+            text-align: end;
+            a{
+                color: var(--back);
+                text-decoration: none;
+                margin-bottom: 20px;
+                display: inline-block;
+                $hospita-green: #ACD9B2;
+            }
+            .out{
+                color: $hospita-green;
+                font-weight: 600;
+            }
+        }
+    }
+}

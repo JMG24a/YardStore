@@ -1,0 +1,59 @@
+$hospital-green: #9ac29f;
+
+.product_card{
+    width: 80%;
+    text-align: center;
+    justify-self: center;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px grey;
+    .product-img{
+        width: 240px;
+        height: 240px;
+        object-fit: scale-down;
+    }
+    .product-details{
+        position: relative;
+        text-align: left;
+        padding: 5px;
+        width: 100%;
+        border-top: 1px solid #c7c7c7;
+        .title{
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: $hospital-green;
+            margin-bottom: 10px;
+        }
+        .description{
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .price{
+            font-size: 1.4rem;
+            font-size: 1.8rem;
+            border: none;
+            background: none;
+            position: absolute;
+            right: 50px;
+            bottom: 7px;
+        }
+        button{
+            border: none;
+            background: none;
+            position: absolute;
+            right: 20px;
+            bottom: 5px;
+            .icon_add{
+                display: block;
+                width: 25px;
+                height: 25px;
+                background-image: url('../../assets/icons/bt_add_to_cart.svg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                cursor: pointer;
+            }
+        }
+    }
+}

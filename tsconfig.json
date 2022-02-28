@@ -1,0 +1,19 @@
+{
+  "compilerOptions":{
+    "target": "ES5",
+    "module": "commonjs",
+    "lib": [
+      "DOM",
+      "ES5",
+      "ES6"
+    ],
+    "jsx": "react",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "importHelpers":true,
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+  },
+  "include": ["./src/**/*","src/custom.d.ts"]
+}
