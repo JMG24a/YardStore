@@ -14,7 +14,7 @@ import { Footer } from '../components/Footer';
 
 function Checkout(){
     //useRedux
-    const {loading} = useSelector((state:rootState) => state.address)
+    const {loading} = useSelector((state:rootState) => state.form)
     //useState
     const [isMyOrder, setIsMyOrder] = useState<boolean>(false)
     const [isMenuMobile, setIsMenuMobile] = useState<boolean>(false)

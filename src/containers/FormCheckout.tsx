@@ -26,7 +26,10 @@ function FormCheckout(){
     const dispatch = useDispatch()
 
     const{ 
-        form_buyer,
+        form_buyer
+    } = bindActionCreators(buyerActions, dispatch)
+
+    const{ 
         get_countrys,
         get_states_address, 
         get_citys,

@@ -16,8 +16,6 @@ const INITIAL_STATE:ISaleCheckState = {
             city: '',
             CP: 0
         },
-        buyer_error:{
-        }
     },
     date: '',
     price: 0,
